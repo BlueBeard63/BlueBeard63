@@ -6,3 +6,19 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=BlueBeard63&count_private=true&show_icons=true&theme=purple&hide_border=true" width="%100" height="150px" alt="stats" />
 </p>
+
+<table>
+  <td>Name Of Plugin</td>
+  <td>Link to Plugin</td>
+  <td>Last Updated/Released</td>
+  <tr>
+    <td>Hydraz</td>
+    <td>https://github.com/BlueBeard63/Hydraz</td>
+    <td>3rd Oct 2020</td>
+  </tr>
+  <tr>
+    <td>Rusturned</td>
+    <td>https://github.com/BlueBeard63/Rusturned</td>
+    <td>9th Nov 2020</td>
+  </tr>
+</table>
