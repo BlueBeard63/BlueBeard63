@@ -21,4 +21,8 @@
     <td>https://github.com/BlueBeard63/Rusturned</td>
     <td>9th Nov 2020</td>
   </tr>
+  <tr>
+    <td>Better Moderation</td>
+    <td>https://github.com/BlueBeard63/Better-Moderation</td>
+    <td>26th Nov 2020</td>
 </table>
