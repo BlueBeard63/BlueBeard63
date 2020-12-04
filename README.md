@@ -17,7 +17,7 @@
     <td>3rd Oct 2020</td>
   </tr>
   <tr>
-    <td>Rusturned</td>
+    <td>Rusturned - RocketMod Version - Stoped being Developed</td>
     <td>https://github.com/BlueBeard63/Rusturned</td>
     <td>9th Nov 2020</td>
   </tr>
