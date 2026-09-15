@@ -54,13 +54,13 @@ gantry dev
 
 ---
 
-### 📊 GitHub Stats
+### 📊 GitHub
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=BlueBeard63&show_icons=true&hide_border=true&theme=github_dark" alt="Jack's GitHub stats" />
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BlueBeard63&layout=compact&hide_border=true&theme=github_dark" alt="Jack's most used languages" />
+<a href="https://github.com/BlueBeard63?tab=repositories">
+  <img src="https://img.shields.io/badge/Check%20out%20my%20projects-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
 </div>
 
