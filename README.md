@@ -1,75 +1,83 @@
 <div align="center">
 
-# Hey, I'm Jack 👋
+# Jack Morrison
 
-### Cybersecurity Student · Software Developer · Professional Tinkerer
-
-I'm a Cybersecurity student at **Bournemouth University** who likes building things, breaking things, and figuring out how they work.
-
-Most of my projects involve **Go, C#, TypeScript, and web development**. I tend to build whatever seems interesting at the time, whether that's desktop apps, developer tools, bots, plugins, or random experiments.
-
-[![Website](https://img.shields.io/badge/Website-jack--morrison.dev-blue?style=for-the-badge\&logo=googlechrome\&logoColor=white)](https://jack-morrison.dev)
-[![GitHub](https://img.shields.io/badge/GitHub-BlueBeard63-181717?style=for-the-badge\&logo=github)](https://github.com/BlueBeard63)
-
-</div>
-
----
-
-### 🚧 What I'm working on
-
-Right now, most of my time is going into **[Gantry](https://github.com/BlueBeard63/Gantry)**.
-
-Gantry is a Go framework for building native desktop applications with React frontends. I started it because I wanted a simple way to combine Go with a modern frontend without giving up the feel of a proper desktop app.
-
-It currently includes things like native windows, custom titlebars, system tray support, notifications, widgets, testing tools, cross-platform builds, and Android support.
-
-```bash id="7hgoqj"
-go install github.com/BlueBeard63/Gantry/cmd/gantry@latest
-
-gantry new myapp
-cd myapp
-gantry dev
-```
-
----
-
-### 🛠️ Stuff I use
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=go,cs,ts,js,react,vue,html,css,git,github,vscode&perline=11" alt="Technology stack" />
-
-</div>
-
----
-
-### 📌 Some of my projects
-
-| Project                                                                       | What it is                                                                                  | Tech                    |
-| ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ----------------------- |
-| **[Gantry](https://github.com/BlueBeard63/Gantry)**                           | A framework for building native desktop apps with Go and React                              | Go · React · TypeScript |
-| **[Archon](https://github.com/BlueBeard63/Archon)**                           | A local TUI site management system                                                          | Go                      |
-| **[BPlugins.DiscordBot](https://github.com/BlueBeard63/BPlugins.DiscordBot)** | A custom Discord bot for the BPlugins community                                             | TypeScript              |
-| **[BAnim](https://github.com/BlueBeard63/BAnim)**                             | A frame-by-frame animation engine I originally made for my A-Level Computer Science project | C#                      |
-
----
-
-### 📊 GitHub
-
-<div align="center">
-
-<a href="https://github.com/BlueBeard63?tab=repositories">
-  <img src="https://img.shields.io/badge/Check%20out%20my%20projects-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-</div>
-
----
-
-<div align="center">
-
-I like making things, learning new stuff, and occasionally spending far too long fixing a bug I caused myself.
+Cyber Security student at Bournemouth University  
+Software developer with a particular interest in Go, developer tooling, and building things from scratch.
 
 [Website](https://jack-morrison.dev) · [GitHub](https://github.com/BlueBeard63)
+
+</div>
+
+---
+
+## About me
+
+I'm a Cyber Security student at Bournemouth University and spend a lot of my spare time working on software projects.
+
+I enjoy experimenting with different technologies and tend to learn best by building things. Most of my recent work has been in Go, although I also work with TypeScript, React, Vue, and C#.
+
+A lot of what I build starts because I want something that either does not exist yet, or does not quite work the way I want it to.
+
+## Current projects
+
+### [Bosun](https://github.com/BlueBeard63/Bosun)
+
+A zero-ceremony web framework and platform toolkit for Go.
+
+Bosun is built around keeping application code simple while handling a lot of the repetitive framework work automatically. Types register themselves where they are declared, with Bosun taking care of the dependency graph, routing, and OpenAPI generation.
+
+It also includes tooling for events, tracing, object storage, multi-tenancy, deployments, typed client generation, and documentation through its CLI.
+
+```go
+type GreetService struct{}
+
+func (s *GreetService) Hello(name string) string {
+	return "hello, " + name
+}
+
+var _ = bosun.Service[GreetService]()
+```
+
+[View Bosun](https://github.com/BlueBeard63/Bosun)
+
+### [Gantry](https://github.com/BlueBeard63/Gantry)
+
+A Go framework for building native desktop applications with React frontends.
+
+Gantry lets me keep application logic in Go while still using React and TypeScript for the UI. It includes native windows, custom titlebars, system tray support, notifications, widgets, testing tools, and cross-platform builds.
+
+[View Gantry](https://github.com/BlueBeard63/Gantry)
+
+## Other projects
+
+| Project | Description | Tech |
+| --- | --- | --- |
+| [Archon](https://github.com/BlueBeard63/Archon) | Local TUI site management system | Go |
+| [BPlugins.DiscordBot](https://github.com/BlueBeard63/BPlugins.DiscordBot) | Custom Discord bot for the BPlugins community | TypeScript |
+| [BAnim](https://github.com/BlueBeard63/BAnim) | Frame-by-frame animation engine originally built for my A-Level Computer Science project | C# |
+| [Savers](https://github.com/BlueBeard63/Savers) | Tool for generating DDL and SQL used in one of my A-Level projects | C# |
+
+## Technologies
+
+**Languages**
+
+`Go` `TypeScript` `JavaScript` `C#` `HTML` `CSS`
+
+**Frontend**
+
+`React` `Vue`
+
+**Tools**
+
+`Git` `GitHub`
+
+---
+
+<div align="center">
+
+Most of my projects are things I wanted to exist, so I built them.
+
+[https://jack-morrison.dev](https://jack-morrison.dev)
 
 </div>
